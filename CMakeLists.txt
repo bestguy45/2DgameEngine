@@ -18,3 +18,6 @@ endif()
 
 add_executable(swift2d_bench bench/sprites.cpp)
 target_link_libraries(swift2d_bench PRIVATE swift2d)
+
+add_executable(swift2d_editor_render tools/editor_render.cpp)
+target_link_libraries(swift2d_editor_render PRIVATE swift2d)
